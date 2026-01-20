@@ -39,7 +39,7 @@ PROP = [matProps.E1, matProps.E2, matProps.nu12, matProps.G, thetaFixed];
 
 % --- Tool & Contact Parameters ---
 penaltyStiffness = 1e7;   % Contact penalty (OMEGAN)
-cuttingLength    = 10.0;  % Total distance for the cut
+cuttingLength    = 3;     % Total distance for the cut
 alpha = 0; gamma = 0;     % Tool orientation angles
 
 % Tool Shape Configuration
