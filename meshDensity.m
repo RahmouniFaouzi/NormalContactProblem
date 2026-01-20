@@ -33,8 +33,8 @@ PROP = [matProps.E1, matProps.E2, matProps.nu12, matProps.G, thetaFixed];
 
 % --- Tool & Solver Parameters ---
 penaltyStiffness = 1e7;   % Contact penalty (OMEGAN)
-cuttingLength    = 3;  % Total distance for the cut
-toolStepSize     = 3;   % Fixed Tool Advancement
+cuttingLength    = 3;     % Total distance for the cut
+toolStepSize     = 3;     % Fixed Tool Advancement
 alpha = 0; gamma = 0;     % Tool orientation
 
 % Tool Start Position (Fixed)
